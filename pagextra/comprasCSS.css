@@ -1,0 +1,1128 @@
+@font-face {
+       font-family: eita;
+       src: url(../fonte/TruenoBdIt.otf) format('opentype');
+} 
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: eita;
+}
+
+body {
+       background-image: url(../img/gif3.gif);
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-attachment: fixed;
+}
+
+header#um {
+       position: absolute;
+       top: 0%;
+       left: 0%;
+       text-align: center;
+       background: #CD0500;
+       padding: 5px;
+       width: 35%;
+       height: 17%;
+       border-top-right-radius: 80px 80px;
+       border-bottom-right-radius: 80px 80px;
+}
+
+img#logo {
+       position: absolute;
+       left: 1%;
+       top: 0.2%;
+       width: 400px;
+       height: 120px;
+}
+
+header#tdois {
+       position: absolute;
+       top: 2.2%;
+       left: 25%;
+       background: white;
+       padding: 5px;
+       width: 70%;
+       height: 13%;
+       border-top-right-radius: 80px 80px;
+       border-bottom-right-radius: 80px 80px;
+}
+
+h5 {
+   color: black;
+   position: absolute;
+   left: 52%;
+   top: 20%;
+   margin-top: -40px;
+   margin-left: -113px;
+   font-family: Arial;
+}
+
+img#imgdois {
+             width: 450px;
+             height: 120px;
+             position: absolute;
+             left: 62%;
+             top: 0.2%;
+}
+
+a#home {
+       position:absolute;
+       top: 7%;
+       left: 37.5%;
+       font-size: 27px;
+       transition: 0.4s;
+}
+
+a#home:link {
+       color: #000000;
+       text-decoration: none;
+}
+
+a#home:visited {
+          color: #000000;
+          text-decoration: none;
+}
+
+a#home:hover {
+        color: red;
+}
+
+a#carro {
+       position:absolute;
+       top: 7%;
+       left: 50.1%;
+       font-size: 27px;
+       transition: 0.4s;
+}
+
+a#carro:link {
+      color: #000000;
+      text-decoration: none;
+}
+
+a#carro:visited {
+         color: #000000;
+         text-decoration: none;
+}
+
+a#carro:hover {
+              color: red;
+}
+
+a#compra {
+        position:absolute;
+        top: 7%;
+        left: 63.5%;
+        font-size: 27px;
+        transition: 0.4s;
+}
+
+a#compra:link {
+       color: #000000;
+       text-decoration: none;
+}
+
+a#compra:visited {
+          color: #000000;
+          text-decoration: none;
+}
+
+a#compra:hover {
+               color: red;
+}
+
+a#revista {
+        position:absolute;
+        top: 7%;
+        left: 79.7%;
+        font-size: 27px;
+        transition: 0.4s;
+}
+
+a#revista:link {
+       color: #000000;
+       text-decoration: none;
+}
+
+a#revista:visited {
+          color: #000000;
+          text-decoration: none;
+}
+
+a#revista:hover {
+        color: red;
+}
+
+hr {
+       position: absolute;
+       left: 47%;
+       top: 6.3%;
+}
+   
+hr#hrdois {
+          position: absolute;
+          left: 60.1%;
+          top: 6.3%;
+}
+   
+hr#hrtres {
+          position: absolute;
+          left: 76.4%;
+          top: 6.3%;
+}
+
+h5 {
+    color: black;
+    position: absolute;
+    left: 52%;
+    top: 20%;
+    margin-top: -40px;
+    margin-left: -113px;
+    font-family: Arial;
+}
+
+img#logo {
+       position: absolute;
+       left: 1%;
+       top: 0.2%;
+       width: 400px;
+       height: 120px;
+}
+
+img#imgdois {
+              width: 450px;
+              height: 120px;
+              position: absolute;
+              left: 62%;
+              top: 0.2%;
+}
+
+img#Loja {
+       position: absolute;
+       top: 31.5%;
+       left: 17%;
+       width: 880px;
+       height: 430px;
+}
+
+header#TIT {
+       position: absolute;
+       top: 125%;
+       left: 0%;
+       background-color: white;
+       width: 100%;
+       height: 60%;
+}
+
+img#gif {
+         width: 350px;
+         height: 350px;
+         position: absolute;
+         top: 131%;
+         left: 3.5%;
+} 
+
+p#textgif {
+           color: #626164;
+           position: absolute;
+           top: 150%;
+           left: 36.8%;
+           font-size: 27px;
+           text-align: left;
+}
+
+h1#hum {
+       color: #626164;
+       position: absolute;
+       left: 32%;
+       top: 128%;
+       font-size: 45px;
+}
+   
+h1#hdois {
+           position: absolute;
+           left: 57.5%;
+           top: 128%;
+           font-size: 45px;
+}
+
+h1#htres {
+       color: #626164;
+       position: absolute;
+       left: 36.2%;
+       top: 135%
+}
+
+.vermeio {
+       color: #CD0500;
+}
+
+/* GTR-R35 */
+
+img#base {
+       position: absolute;
+       top: 217%;
+       left: 4%;
+}
+
+.cabeca {
+ width: 550px;
+ height: 350px;
+ overflow: hidden;
+ position: absolute;
+ top: 220.5%;
+ left: 7.5%;
+}
+
+.navi {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    display: flex;
+    transform: translate(-50%);
+}
+
+.bardo {
+ position: absolute;
+ top: 80%;
+ left: 10%;
+ background-image: url(../carrosvenda/seta2.png);
+ background-repeat: no-repeat;
+ padding: 55px;
+ background-size: 80px;
+ cursor: pointer;
+ transition: .4s;
+}
+
+.bardo:hover {
+ left: 8%;
+}
+
+.bardoDOIS {
+ position: absolute;
+ top: 80%;
+ left: 75%;
+ background-image: url(../carrosvenda/seta.png);
+ background-repeat: no-repeat;
+ padding: 55px;
+ background-size: 80px;
+ cursor: pointer;
+ transition: .4s;
+}
+
+.bardoDOIS:hover {
+ left: 77%;
+}
+
+input {
+display: none;
+}
+
+.braco {
+display: flex;
+width: 500%;
+height: 100%;
+}
+
+.torax {
+width: 20%;
+transition: .6s;
+}
+
+.torax img {
+   width: 550px;
+   height: 350px;
+}
+
+#pe:checked ~ .s1 {
+              margin-left: 0;
+}
+
+#pe2:checked ~ .s1 {
+              margin-left: -20%;
+}
+
+img#base2 {
+       position: absolute;
+       top: 217%;
+       left: 58.5%;
+       width: 420px;
+       height: 400px;
+}
+
+h1#texto {
+       position: absolute;
+       left: 63%;
+       top: 225%;
+       font-size: 30px;
+       color: black;
+       text-align: center;
+}
+
+a#GTRcompra {
+ top: 245%;
+ left: 67%;
+}
+
+a#webgtr {
+ top: 255%;
+ left: 67%;
+}
+
+/* SILVIA 13 */
+
+img#base3 {
+ position: absolute;
+ top: 309%;
+ left: 4%;
+}
+
+.silviaroda {
+ width: 550px;
+ height: 350px;
+ overflow: hidden;
+ position: absolute;
+ top: 312.5%;
+ left: 7.5%;
+}
+
+.botao {
+ position: absolute;
+ top: 80%;
+ left: 10%;
+ background-image: url(../carrosvenda/seta2.png);
+ background-repeat: no-repeat;
+ padding: 55px;
+ background-size: 80px;
+ cursor: pointer;
+ transition: .4s;
+}
+
+.botao:hover {
+ left: 8%;
+}
+
+.botaoDOIS {
+ position: absolute;
+ top: 80%;
+ left: 75%;
+ background-image: url(../carrosvenda/seta.png);
+ background-repeat: no-repeat;
+ padding: 55px;
+ background-size: 80px;
+ cursor: pointer;
+ transition: .4s;
+}
+
+.botaoDOIS:hover {
+ left: 77%;
+}
+
+input {
+display: none;
+}
+
+.silviaBRACO {
+display: flex;
+width: 500%;
+height: 100%;
+}
+
+.silviaTORAX {
+width: 20%;
+transition: .6s;
+}
+
+.silviaTORAX img {
+   width: 550px;
+   height: 350px;
+}
+
+#peS:checked ~ .s1 {
+              margin-left: 0;
+}
+
+#pe2S:checked ~ .s1 {
+              margin-left: -20%;
+}
+
+img#base2S {
+     position: absolute;
+     top: 309%;
+     left: 58.5%;
+     width: 420px;
+     height: 400px;
+}
+
+h1#textoS {
+ position: absolute;
+ left: 63%;
+ top: 317%;
+ font-size: 30px;
+ color: black;
+ text-align: center;
+}
+
+a#SILVIA13compra {
+ top: 337%;
+ left: 67%;
+}
+
+a#webS13 {
+ top: 347%;
+ left: 67%;
+}
+
+/* GTR-R34 */
+
+img#baseR34 {
+ position: absolute;
+ top: 401%;
+ left: 4%;
+}
+
+.r34roda {
+ width: 550px;
+ height: 350px;
+ overflow: hidden;
+ position: absolute;
+ top: 404.5%;
+ left: 7.5%;
+}
+
+.botao34 {
+ position: absolute;
+ top: 80%;
+ left: 10%;
+ background-image: url(../carrosvenda/seta2.png);
+ background-repeat: no-repeat;
+ padding: 55px;
+ background-size: 80px;
+ cursor: pointer;
+ transition: .4s;
+}
+
+.botao34:hover {
+ left: 8%;
+}
+
+.botaoDOIS34 {
+ position: absolute;
+ top: 80%;
+ left: 75%;
+ background-image: url(../carrosvenda/seta.png);
+ background-repeat: no-repeat;
+ padding: 55px;
+ background-size: 80px;
+ cursor: pointer;
+ transition: .4s;
+}
+
+.botaoDOIS34:hover {
+ left: 77%;
+}
+
+input {
+display: none;
+}
+
+.r34BRACO {
+display: flex;
+width: 500%;
+height: 100%;
+}
+
+.r34TORAX {
+width: 20%;
+transition: .6s;
+}
+
+.r34TORAX img {
+   width: 550px;
+   height: 350px;
+}
+
+#pe34:checked ~ .s1 {
+              margin-left: 0;
+}
+
+#pe234:checked ~ .s1 {
+              margin-left: -20%;
+}
+
+img#base2R34 {
+     position: absolute;
+     top: 401%;
+     left: 58.5%;
+     width: 420px;
+     height: 400px;
+}
+
+h1#textoR34 {
+ position: absolute;
+ left: 63%;
+ top: 409%;
+ font-size: 30px;
+ color: black;
+ text-align: center;
+}
+
+a#R34compra {
+ top: 429%;
+ left: 67%;
+}
+
+a#webR34 {
+ top: 439%;
+ left: 67%;
+}
+
+/* MIATA */
+
+img#baseMX5 {
+ position: absolute;
+ top: 493%;
+ left: 4%;
+}
+
+.MX5roda {
+ width: 550px;
+ height: 350px;
+ overflow: hidden;
+ position: absolute;
+ top: 496.5%;
+ left: 7.5%;
+}
+
+.botaoMX5 {
+ position: absolute;
+ top: 80%;
+ left: 10%;
+ background-image: url(../carrosvenda/seta2.png);
+ background-repeat: no-repeat;
+ padding: 55px;
+ background-size: 80px;
+ cursor: pointer;
+ transition: .4s;
+}
+
+.botaoMX5:hover {
+ left: 8%;
+}
+
+.botaoDOISMX5 {
+ position: absolute;
+ top: 80%;
+ left: 75%;
+ background-image: url(../carrosvenda/seta.png);
+ background-repeat: no-repeat;
+ padding: 55px;
+ background-size: 80px;
+ cursor: pointer;
+ transition: .4s;
+}
+
+.botaoDOISMX5:hover {
+ left: 77%;
+}
+
+input {
+display: none;
+}
+
+.MX5BRACO {
+display: flex;
+width: 500%;
+height: 100%;
+}
+
+.MX5TORAX {
+width: 20%;
+transition: .6s;
+}
+
+.MX5TORAX img {
+   width: 550px;
+   height: 350px;
+}
+
+#peMX5:checked ~ .s1 {
+              margin-left: 0;
+}
+
+#pe2MX5:checked ~ .s1 {
+              margin-left: -20%;
+}
+
+img#base2MX5 {
+     position: absolute;
+     top: 493%;
+     left: 58.5%;
+     width: 420px;
+     height: 400px;
+}
+
+h1#textoMX5 {
+ position: absolute;
+ left: 63%;
+ top: 501%;
+ font-size: 30px;
+ color: black;
+ text-align: center;
+}
+
+a#MX5compra {
+ top: 521%;
+ left: 67%;
+}
+
+a#webMX5 {
+ top: 531%;
+ left: 67%;
+}
+
+/* EVO X */
+
+img#baseEX {
+ position: absolute;
+ top: 585%;
+ left: 4%;
+}
+
+.EXroda {
+ width: 550px;
+ height: 350px;
+ overflow: hidden;
+ position: absolute;
+ top: 588.5%;
+ left: 7.5%;
+}
+
+.botaoEX {
+ position: absolute;
+ top: 80%;
+ left: 10%;
+ background-image: url(../carrosvenda/seta2.png);
+ background-repeat: no-repeat;
+ padding: 55px;
+ background-size: 80px;
+ cursor: pointer;
+ transition: .4s;
+}
+
+.botaoEX:hover {
+ left: 8%;
+}
+
+.botaoDOISEX {
+ position: absolute;
+ top: 80%;
+ left: 75%;
+ background-image: url(../carrosvenda/seta.png);
+ background-repeat: no-repeat;
+ padding: 55px;
+ background-size: 80px;
+ cursor: pointer;
+ transition: .4s;
+}
+
+.botaoDOISEX:hover {
+ left: 77%;
+}
+
+input {
+display: none;
+}
+
+.EXBRACO {
+display: flex;
+width: 500%;
+height: 100%;
+}
+
+.EXTORAX {
+width: 20%;
+transition: .6s;
+}
+
+.EXTORAX img {
+   width: 550px;
+   height: 350px;
+}
+
+#peEX:checked ~ .s1 {
+              margin-left: 0;
+}
+
+#pe2EX:checked ~ .s1 {
+              margin-left: -20%;
+}
+
+img#base2EX {
+     position: absolute;
+     top: 585%;
+     left: 58.5%;
+     width: 420px;
+     height: 400px;
+}
+
+h1#textoEX {
+ position: absolute;
+ left: 63%;
+ top: 593%;
+ font-size: 30px;
+ color: black;
+ text-align: center;
+}
+
+a#EXcompra {
+ top: 613%;
+ left: 67%;
+}
+
+a#webEX {
+ top: 623%;
+ left: 67%;
+}
+
+/* HATCH */
+
+img#baseHAT {
+ position: absolute;
+ top: 677%;
+ left: 4%;
+}
+
+.HATroda {
+ width: 550px;
+ height: 350px;
+ overflow: hidden;
+ position: absolute;
+ top: 680.5%;
+ left: 7.5%;
+}
+
+.botaoHAT {
+ position: absolute;
+ top: 80%;
+ left: 10%;
+ background-image: url(../carrosvenda/seta2.png);
+ background-repeat: no-repeat;
+ padding: 55px;
+ background-size: 80px;
+ cursor: pointer;
+ transition: .4s;
+}
+
+.botaoHAT:hover {
+ left: 8%;
+}
+
+.botaoDOISHAT {
+ position: absolute;
+ top: 80%;
+ left: 75%;
+ background-image: url(../carrosvenda/seta.png);
+ background-repeat: no-repeat;
+ padding: 55px;
+ background-size: 80px;
+ cursor: pointer;
+ transition: .4s;
+}
+
+.botaoDOISHAT:hover {
+ left: 77%;
+}
+
+input {
+display: none;
+}
+
+.HATBRACO {
+display: flex;
+width: 500%;
+height: 100%;
+}
+
+.HATTORAX {
+width: 20%;
+transition: .6s;
+}
+
+.HATTORAX img {
+   width: 550px;
+   height: 350px;
+}
+
+#peHAT:checked ~ .s1 {
+              margin-left: 0;
+}
+
+#pe2HAT:checked ~ .s1 {
+              margin-left: -20%;
+}
+
+img#base2HAT {
+     position: absolute;
+     top: 677%;
+     left: 58.5%;
+     width: 420px;
+     height: 400px;
+}
+
+h1#textoHAT {
+ position: absolute;
+ left: 63%;
+ top: 685%;
+ font-size: 30px;
+ color: black;
+ text-align: center;
+}
+
+a#HATcompra {
+ top: 705%;
+ left: 67%;
+}
+
+a#webHAT {
+ top: 715%;
+ left: 67%;
+}
+
+/* NSX */
+
+img#baseNSX {
+ position: absolute;
+ top: 769%;
+ left: 4%;
+}
+
+.NSXroda {
+ width: 550px;
+ height: 350px;
+ overflow: hidden;
+ position: absolute;
+ top: 772.5%;
+ left: 7.5%;
+}
+
+.botaoNSX {
+ position: absolute;
+ top: 80%;
+ left: 10%;
+ background-image: url(../carrosvenda/seta2.png);
+ background-repeat: no-repeat;
+ padding: 55px;
+ background-size: 80px;
+ cursor: pointer;
+ transition: .4s;
+}
+
+.botaoNSX:hover {
+ left: 8%;
+}
+
+.botaoDOISNSX {
+ position: absolute;
+ top: 80%;
+ left: 75%;
+ background-image: url(../carrosvenda/seta.png);
+ background-repeat: no-repeat;
+ padding: 55px;
+ background-size: 80px;
+ cursor: pointer;
+ transition: .4s;
+}
+
+.botaoDOISNSX:hover {
+ left: 77%;
+}
+
+input {
+display: none;
+}
+
+.NSXBRACO {
+display: flex;
+width: 500%;
+height: 100%;
+}
+
+.NSXTORAX {
+width: 20%;
+transition: .6s;
+}
+
+.NSXTORAX img {
+   width: 550px;
+   height: 350px;
+}
+
+#peNSX:checked ~ .s1 {
+              margin-left: 0;
+}
+
+#pe2NSX:checked ~ .s1 {
+              margin-left: -20%;
+}
+
+img#base2NSX {
+     position: absolute;
+     top: 769%;
+     left: 58.5%;
+     width: 420px;
+     height: 400px;
+}
+
+h1#textoNSX {
+ position: absolute;
+ left: 63%;
+ top: 777%;
+ font-size: 30px;
+ color: black;
+ text-align: center;
+}
+
+a#NSXcompra {
+ top: 797%;
+ left: 67%;
+}
+
+a#webNSX {
+ top: 807%;
+ left: 67%;
+}
+
+.compreagr {
+    position: absolute;
+    padding: 12px 55px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #4b4b4b;
+    letter-spacing: 1.5px;
+    font-size: 15px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: #202020 0px 8px 0px 0px;
+    color: #ffffff;
+    cursor: pointer;
+}
+  
+.compreagr:hover {
+    box-shadow: #202020 0px 4px 0px 0px;
+}
+
+.compreagr:active {
+    background-color: #4b4b4b;
+    box-shadow: #202020 0px 0px 0px 0px;
+    transform: translateY(5px);
+    transition: 200ms;
+}
+  
+.webmotors {
+    position: absolute;
+    padding: 12px 41px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #ff0026;
+    letter-spacing: 1.5px;
+    font-size: 15px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: #a80019 0px 8px 0px 0px;
+    color: #ffffff;
+    cursor: pointer;
+}
+  
+.webmotors:hover {
+    box-shadow: #a80019 0px 4px 0px 0px;
+}
+  
+.webmotors:active {
+    background-color: #ff0026;
+    box-shadow: #a80019 0px 0px 0px 0px;
+    transform: translateY(5px);
+    transition: 200ms;
+}
+
+header#baixo {
+              position: absolute;
+              top: 861%;
+              left: 0%;
+              background-color: white;
+              width: 100%;
+              height: 75%;
+}
+
+header#baixodois {
+              position: absolute;
+              top: 936%;
+              background: #626164;
+              width: 100%;
+              height: 6.9%;
+}
+
+p#copy {
+       position: absolute;
+       top: 940%;
+       left: 1%;
+       font-size: 13px;
+       color: black;
+}
+
+p#nameM {
+       position: absolute;
+       top: 937.1%;
+       left: 42%;
+       font-size: 25px;
+       color: black;
+}
+
+img#LOGOloja {
+       position: absolute;
+       top: 865%;
+       left: 60%;
+       width: 500px;
+       height: 500px;
+}
+
+h1#textPE {
+           position: absolute;
+           top: 875%;
+           left: 3%;
+           font-size: 45px;
+           text-align: center;
+           color: #626164;
+}
+
+img#loc {
+       position: absolute;
+       top: 908%;
+       left: 6%;
+       width: 70px;
+       height: 70px;
+}
+
+p#loctext {
+        position: absolute;
+        top: 911.5%;
+        left: 12%;
+        font-size: 20px;
+        color: black;
+}
+
+img#subir {
+       position: absolute;
+       top: 919%;
+       left: 25%;
+       width: 90px;
+       height: 90px;
+       transition: 0.8s;
+}
+
+img#subir:hover {
+       scale: 1.1;
+       cursor: pointer;
+}

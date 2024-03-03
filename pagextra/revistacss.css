@@ -1,0 +1,737 @@
+@font-face {
+        font-family: eita;
+        src: url(../fonte/TruenoBdIt.otf) format('opentype');
+} 
+
+* {
+   margin: 0;
+   padding: 0;
+   font-family: eita;
+}
+
+body {
+        background-image: url(../img/gif5.gif);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+}
+
+p#top {
+        position: absolute;
+        top: 0%;
+        visibility: hidden;
+}
+
+header#um {
+        position: absolute;
+        top: 0%;
+        text-align: center;
+        background: #CD0500;
+        padding: 5px;
+        width: 35%;
+        height: 17%;
+        border-top-right-radius: 80px 80px;
+        border-bottom-right-radius: 80px 80px;
+}
+
+img#logo {
+        position: absolute;
+        left: 1%;
+        top: 0.2%;
+        width: 400px;
+        height: 120px;
+}
+
+header#tdois {
+              position: absolute;
+              top: 2.2%;
+              left: 25%;
+              background: white;
+              padding: 5px;
+              width: 70%;
+              height: 13%;
+              border-top-right-radius: 80px 80px;
+              border-bottom-right-radius: 80px 80px;
+}
+
+header#ttres {
+        position: absolute;
+        top: 125%;
+        left: 0%;
+        background-color: white;
+        width: 100%;
+        height: 75%;
+}
+
+img#imgdois {
+             position: absolute;
+             top: 26%;
+             left: 30.5%;
+             width: 550px;
+             height: 550px;
+}
+
+a#home {
+        position:absolute;
+        top: 7%;
+        left: 37.5%;
+        font-size: 27px;
+        transition: 0.4s;
+}
+
+a#home:link {
+        color: #000000;
+        text-decoration: none;
+}
+
+a#home:visited {
+           color: #000000;
+           text-decoration: none;
+}
+
+a#home:hover {
+         color: red;
+}
+
+a#carro {
+        position:absolute;
+        top: 7%;
+        left: 50.1%;
+        font-size: 27px;
+        transition: 0.4s;
+}
+
+a#carro:link {
+       color: #000000;
+       text-decoration: none;
+}
+
+a#carro:visited {
+          color: #000000;
+          text-decoration: none;
+}
+
+a#carro:hover {
+               color: red;
+}
+
+a#compra {
+         position:absolute;
+         top: 7%;
+         left: 63.5%;
+         font-size: 27px;
+         transition: 0.4s;
+}
+
+a#compra:link {
+        color: #000000;
+        text-decoration: none;
+}
+
+a#compra:visited {
+           color: #000000;
+           text-decoration: none;
+}
+
+a#compra:hover {
+                color: red;
+}
+
+a#revista {
+         position:absolute;
+         top: 7%;
+         left: 79.7%;
+         font-size: 27px;
+         transition: 0.4s;
+}
+
+a#revista:link {
+        color: #000000;
+        text-decoration: none;
+}
+
+a#revista:visited {
+           color: #000000;
+           text-decoration: none;
+}
+
+a#revista:hover {
+         color: red;
+}
+
+hr {
+    position: absolute;
+    left: 47%;
+    top: 6.3%;
+}
+
+hr#hrdois {
+    position: absolute;
+    left: 60.1%;
+    top: 6.3%;
+}
+
+hr#hrtres {
+    position: absolute;
+    left: 76.4%;
+    top: 6.3%;
+}
+
+p#tituloREV {
+        position: absolute;
+        top: 130%;
+        left: 12%;
+        color: #626164;
+        font-size: 45px;
+}
+
+p#tituloREVverm {
+        position: absolute;
+        top: 130%;
+        left: 53.5%;
+        color: #CD0500;
+        font-size: 45px;
+}
+
+h1#subtiREV {
+        position: absolute;
+        top: 137%;
+        left: 30%;
+        color: #626164;
+}
+
+p#texto {
+         position: absolute;
+    	 top: 150%;
+    	 left: 2%;
+    	 color: #626164;
+         font-size: 35px;
+         text-align: center;
+}
+
+p#textobaixo {
+        position: absolute;
+        top: 180%;
+        left: 34%;
+        color: #000000;
+        font-size: 90px;
+        text-align: center;
+        padding: 10px;
+}
+
+p#coisa {
+        position: absolute;
+        top: 185%;
+        left: 1.5%;
+        color: #000000;
+        font-size: 40px;
+        text-align: center;
+        padding: 10px;
+}
+
+p#coisa2 {
+        position: absolute;
+        top: 185%;
+        left: 9%;
+        color: #CD0500;
+        font-size: 40px;
+        text-align: center;
+        padding: 10px;
+}
+
+hr#hrJDM {
+        position: absolute;
+        top: 193%;
+        left: 2.2%;
+        width: 250px;
+}
+
+p#amazon {
+        position: absolute;
+        top: 192.5%;
+        left: 4%;
+        color: #000000;
+        font-size: 20px;
+        text-align: center;
+        padding: 10px;
+}
+
+p#parceira {
+        position: absolute;
+        top: 171.5%;
+        left: 10%;
+        color: #000000;
+        font-size: 20px;
+        text-align: center;
+        padding: 10px;
+}
+
+img#amazon2 {
+        position: absolute;
+        top: 173%;
+        left: 24.5%;
+        width: 110px;
+        height: 30px;
+}
+
+img#amazon {
+        position: absolute;
+        top: 185%;
+        left: 22%;
+        width: 100px;
+        height: 100px;
+}
+
+img#revistafoto {
+                  position: absolute;
+                  top: 126.5%;
+                  left: 46%;
+                  width: 700px;
+                  height: 500px;
+}
+
+.basejapa {
+        width: 450px;
+        height: 795px;
+        background-color: white;
+}
+
+.revistaUM {
+        width: 350px;
+        height: 500px;
+        padding: 10px;
+        border: 2px solid black;
+        border-radius: 4%;
+}
+
+.japatxt {
+        font-size: 25px;
+        padding: 15px;
+        font-weight: bold;
+}
+
+header#base1 {
+              position: absolute;
+              top: 230%;
+              left: 10%;
+}
+
+img#re {
+        position: absolute;
+        top: 235%;
+        left: 13%;
+        transition: 0.8s;
+}
+
+img#re:hover {
+              scale: 1.1;
+              cursor: pointer;
+              box-shadow: 3px 3px 3px 3px #000000;
+}
+
+p#drift {
+        position: absolute;
+        top: 315%;
+        left: 17.5%;
+        text-align: center;
+        font-size: 35px;
+}
+
+p#driftC {
+        position: absolute;
+        top: 315.3%;
+        left: 17.3%;
+        text-align: center;
+        font-size: 35px;
+        color: #626164;
+}
+
+p#txtjapa {
+        position: absolute;
+        top: 335.5%;
+        left: 16.2%;
+}
+
+header#base2 {
+        position: absolute;
+        top: 230%;
+        left: 55%;
+}
+
+img#rev {
+         position: absolute;
+         top: 235%;
+         left: 58%;
+         transition: 0.8s;
+}
+
+img#rev:hover {
+               scale: 1.1;
+               cursor: pointer;
+               box-shadow: 3px 3px 3px 3px #000000;
+}
+
+p#driftdois {
+        position: absolute;
+        top: 315%;
+        left: 63.3%;
+        text-align: center;
+        font-size: 35px;
+}
+
+p#driftdoisC {
+        position: absolute;
+        top: 315.3%;
+        left: 63.1%;
+        text-align: center;
+        font-size: 35px;
+        color: #626164;
+}
+
+p#txtjapa2 {
+        position: absolute;
+        top: 335.5%;
+        left: 62%;
+}
+
+header#base3 {
+        position: absolute;
+        top: 380%;
+        left: 10%;
+}
+
+img#revi {
+         position: absolute;
+         top: 385%;
+         left: 13%;
+         transition: 0.8s;
+}
+
+img#revi:hover {
+               scale: 1.1;
+               cursor: pointer;
+               box-shadow: 3px 3px 3px 3px #000000;
+}
+
+p#op {
+        position: absolute;
+        top: 465%;
+        left: 13.6%;
+        text-align: center;
+        font-size: 35px;
+}
+
+p#opC {
+        position: absolute;
+        top: 465.3%;
+        left: 13.4%;
+        text-align: center;
+        font-size: 35px;
+        color: #626164;
+}
+
+p#txtjapa3 {
+        position: absolute;
+        top: 485.5%;
+        left: 16.5%;
+}
+
+header#base4 {
+        position: absolute;
+        top: 380%;
+        left: 55%;
+}
+
+img#revis {
+           position: absolute;
+           top: 385%;
+           left: 58%;
+           transition: 0.8s;
+}
+
+img#revis:hover {
+                 scale: 1.1;
+                 cursor: pointer;
+                 box-shadow: 3px 3px 3px 3px #000000;
+}
+
+p#Import {
+        position: absolute;
+        top: 465%;
+        left: 63.4%;
+        text-align: center;
+        font-size: 35px;
+}
+
+p#ImportC {
+        position: absolute;
+        top: 465.3%;
+        left: 63.2%;
+        text-align: center;
+        font-size: 35px;
+        color: #626164;
+}
+
+p#txtjapa4 {
+        position: absolute;
+        top: 485.5%;
+        left: 62.2%;
+}
+
+header#base5 {
+        position: absolute;
+        top: 530%;
+        left: 10%;
+}
+
+img#revist {
+        position: absolute;
+        top: 535%;
+        left: 13%;
+        transition: 0.8s;
+}
+
+img#revist:hover {
+              scale: 1.1;
+              cursor: pointer;
+              box-shadow: 3px 3px 3px 3px #000000;
+}
+
+p#Import2 {
+        position: absolute;
+        top: 615%;
+        left: 17.8%;
+        text-align: center;
+        font-size: 35px;
+}
+
+p#Import2C {
+        position: absolute;
+        top: 615.3%;
+        left: 17.6%;
+        text-align: center;
+        font-size: 35px;
+        color: #626164;
+}
+
+p#txtjapa5 {
+        position: absolute;
+        top: 635.5%;
+        left: 16%;
+}
+
+header#base6 {
+        position: absolute;
+        top: 530%;
+        left: 55%;
+}
+
+img#revista {
+        position: absolute;
+        top: 535%;
+        left: 58%;
+        transition: 0.8s;
+}
+
+img#revista:hover {
+              scale: 1.1;
+              cursor: pointer;
+              box-shadow: 3px 3px 3px 3px #000000;
+}
+
+p#drifttres {
+        position: absolute;
+        top: 615%;
+        left: 63.1%;
+        text-align: center;
+        font-size: 35px;
+}
+
+p#drifttresC {
+        position: absolute;
+        top: 615.3%;
+        left: 62.9%;
+        text-align: center;
+        font-size: 35px;
+        color: #626164;
+}
+
+p#txtjapa6 {
+        position: absolute;
+        top: 635.5%;
+        left: 62%;
+}
+
+.compreagr {
+    position: absolute;
+    padding: 20px 35px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #4b4b4b;
+    letter-spacing: 1.5px;
+    font-size: 20px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: #202020 0px 15px 0px 0px;
+    color: #ffffff;
+    cursor: pointer;
+}
+  
+.compreagr:hover {
+    box-shadow: #202020 0px 7px 0px 0px;
+}
+
+.compreagr:active {
+    background-color: #4b4b4b;
+    box-shadow: #202020 0px 0px 0px 0px;
+    transform: translateY(5px);
+    transition: 200ms;
+}
+
+a#r1 {
+        position: absolute;
+        top: 338%;
+        left: 16.3%;
+}
+
+a#r2 {
+        position: absolute;
+        top: 338%;
+        left: 62.2%;
+}
+
+header#baixo {
+        position: absolute;
+        top: 680%;
+        left: 0%;
+        background-color: white;
+        width: 100%;
+        height: 75%;
+}
+
+header#baixodois {
+                 position: absolute;
+                 top: 755%;
+                background: #626164;
+                width: 100%;
+                height: 7%;
+}
+
+p#nameM {
+        position: absolute;
+        top: 756.3%;
+        left: 42%;
+        font-size: 25px;
+        color: black;
+}
+
+p#copy {
+        position: absolute;
+        top: 759%;
+        left: 1%;
+        font-size: 13px;
+        color: black;
+}
+
+img#RodapeREVISTA {
+             position: absolute;
+             top: 696%;
+             left: 2%;
+             width: 800px;
+             height: 400px;
+}
+
+img#japarodapeE {
+             position: absolute;
+             top: 712%;
+             left: 1%;
+             width: 100px;
+             height: 300px;
+}
+
+p#rodapeTITJAPA {
+        position: absolute;
+        top: 680%;
+        left: 0%;
+        font-size: 45px;
+        color: #626164;
+}
+
+p#rodapeTIT {
+        position: absolute;
+        top: 687%;
+        left: 0%;
+        font-size: 65px;
+        color: #626164;
+}
+
+p#numero {
+        position: absolute;
+        top: 690%;
+        left: 54.1%;
+        font-size: 85px;
+        color: #ed2525;
+}
+
+img#japarodapeE2 {
+        position: absolute;
+        top: 708%;
+        left: 52.8%;
+        width: 100px;
+        height: 300px;
+}
+
+header#quadrado1 {
+        position: absolute;
+        top: 680%;
+        left: 45%;
+        width: 100px;
+        height: 80px;
+        background-color: #ed2525;
+}
+
+hr#linha {
+        position: absolute;
+        top: 680%;
+        left: 52.6%;
+}
+
+header#quadrado2 {
+        position: absolute;
+        top: 680%;
+        left: 53%;
+        width: 100px;
+        height: 80px;
+        background-color: #626164;
+}
+
+p#rodapetexto {
+              position: absolute;
+              top: 685%;
+              left: 61.5%;
+              font-size: 30px;
+              text-align: center;
+              color: #626164;
+}
+
+img#capas {
+           position: absolute;
+           top: 708%;
+           left: 69%;
+           width: 300px;
+           height: 300px;
+}
+
+img#subir {
+        position: absolute;
+        top: 740%;
+        left: 92%;
+        width: 90px;
+        height: 90px;
+        transition: 0.8s;
+}
+
+img#subir:hover {
+        scale: 1.1;
+        cursor: pointer;
+}

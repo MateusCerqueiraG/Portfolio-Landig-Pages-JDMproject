@@ -1,0 +1,639 @@
+@font-face {
+        font-family: eita;
+        src: url(fonte/TruenoBdIt.otf) format('opentype');
+} 
+
+* {
+   margin: 0;
+   padding: 0;
+   font-family: eita;
+}
+
+body {
+        background-image: url(img/gifaa.gif);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+}
+
+p#top {
+        position: absolute;
+        top: 0%;
+        visibility: hidden;
+}
+
+header#um {
+        position: absolute;
+        top: 0%;
+        text-align: center;
+        background: #CD0500;
+        padding: 5px;
+        width: 35%;
+        height: 17%;
+        border-top-right-radius: 80px 80px;
+        border-bottom-right-radius: 80px 80px;
+}
+
+img#logo {
+        position: absolute;
+        left: 1%;
+        top: 0.2%;
+        width: 400px;
+        height: 120px;
+}
+
+header#tdois {
+              position: absolute;
+              top: 2.2%;
+              left: 25%;
+              background: white;
+              padding: 5px;
+              width: 70%;
+              height: 13%;
+              border-top-right-radius: 80px 80px;
+              border-bottom-right-radius: 80px 80px;
+}
+
+header#ttres {
+        position: absolute;
+        top: 125%;
+        left: 0%;
+        background-color: white;
+        width: 100%;
+        height: 75%;
+}
+
+header#tquatro {
+        position: absolute;
+        top: 300%;
+        left: 0%;
+        background-color: white;
+        width: 100%;
+        height: 75%;
+}
+
+header#tcinco {
+        position: absolute;
+        top: 475%;
+        left: 0%;
+        background-color: white;
+        width: 100%;
+        height: 75%;
+}
+
+header#tseis {
+        position: absolute;
+        top: 650%;
+        left: 0%;
+        background-color: white;
+        width: 100%;
+        height: 75%;
+}
+
+header#tsete {
+        position: absolute;
+        top: 825%;
+        left: 0%;
+        background-color: white;
+        width: 100%;
+        height: 75%;
+}
+
+img#imgdois {
+             position: absolute;
+             top: 8%;
+             left:20%;
+             width: 800px;
+             height: 800px;
+}
+
+a#home {
+        position:absolute;
+        top: 7%;
+        left: 37.5%;
+        font-size: 27px;
+        transition: 0.4s;
+}
+
+a#home:link {
+        color: #000000;
+        text-decoration: none;
+}
+
+a#home:visited {
+           color: #000000;
+           text-decoration: none;
+}
+
+a#home:hover {
+         color: red;
+}
+
+a#carro {
+        position:absolute;
+        top: 7%;
+        left: 50.1%;
+        font-size: 27px;
+        transition: 0.4s;
+}
+
+a#carro:link {
+       color: #000000;
+       text-decoration: none;
+}
+
+a#carro:visited {
+          color: #000000;
+          text-decoration: none;
+}
+
+a#carro:hover {
+               color: red;
+}
+
+a#compra {
+         position:absolute;
+         top: 7%;
+         left: 63.5%;
+         font-size: 27px;
+         transition: 0.4s;
+}
+
+a#compra:link {
+        color: #000000;
+        text-decoration: none;
+}
+
+a#compra:visited {
+           color: #000000;
+           text-decoration: none;
+}
+
+a#compra:hover {
+                color: red;
+}
+
+a#revista {
+         position:absolute;
+         top: 7%;
+         left: 79.7%;
+         font-size: 27px;
+         transition: 0.4s;
+}
+
+a#revista:link {
+        color: #000000;
+        text-decoration: none;
+}
+
+a#revista:visited {
+           color: #000000;
+           text-decoration: none;
+}
+
+a#revista:hover {
+         color: red;
+}
+
+hr {
+    position: absolute;
+    left: 47%;
+    top: 6.3%;
+}
+
+hr#hrdois {
+    position: absolute;
+    left: 60.1%;
+    top: 6.3%;
+}
+
+hr#hrtres {
+    position: absolute;
+    left: 76.4%;
+    top: 6.3%;
+}
+
+h1#hum {
+    color: #626164;
+    position: absolute;
+    left: 35%;
+    top: 130%;
+    font-size: 45px;
+}
+
+h1#hdois {
+        position: absolute;
+        left: 57.7%;
+        top: 130%;
+        font-size: 45px;
+}
+
+h1#htres {
+        color: #626164;
+        position: absolute;
+        left: 39%;
+        top: 137%
+}
+
+.vermeio {
+          color: #CD0500;
+}
+
+p {
+   color: #626164;
+   position: absolute;
+   top: 150%;
+   left: 40%;
+   font-size: 25px;
+   text-align: left;
+}
+
+img#silJDM {
+            position: absolute;
+            top: 130%;
+            left: 4%;
+            width: 400px;
+            height: 450px;
+}
+
+img#POLAROIDdois {
+        position: absolute;
+        top: 216.3%;
+        left: 44%;
+        height: 470px;
+        width: 680px;
+        box-shadow: 10px 10px 20px 5px;
+}
+
+h1#Polatextodois {
+        position: absolute;
+        top: 225%;
+        left: 3%;
+        font-size: 40px;
+        color: black;
+}
+
+img#suba {
+          position: absolute;
+          top: 305%;
+          left: 68%;
+          width: 400px;
+          height: 450px;
+}
+
+p#subarutitle {
+               position: absolute;
+               top: 305%;
+               left: 31%;
+               color: #626164;
+               font-size: 45px;
+}
+
+p#subarutitledois {
+        position: absolute;
+        top: 305%;
+        left: 60.2%;
+        font-size: 45px;
+}
+
+h1#subasub {
+        position: absolute;
+        top: 312%;
+        left: 26.7%;
+        color: #626164;
+}
+
+p#subatext {
+            top: 330%;
+            left: 6%;
+            color: #626164;
+            font-size: 25px;
+            text-align: left;
+}
+
+img#polaroid {
+        position: absolute;
+        top: 391.2%;
+        left: 4%;
+        height: 470px;
+        width: 680px;
+        box-shadow: 10px 10px 20px 5px;
+}
+
+h1#polatexto {
+        position: absolute;
+        top: 395%;
+        left: 59%;
+        font-size: 40px;
+        color: black;
+}
+
+img#supra {
+        position: absolute;
+        top: 480%;
+        left: 4%;
+        width: 400px;
+        height: 450px;
+}
+
+p#supratitle {
+        position: absolute;
+        top: 480%;
+        left: 35.1%;
+        color: #626164;
+        font-size: 45px;
+}  
+
+p#supratdois {
+        position: absolute;
+        top: 480%;
+        left: 59.2%;
+        font-size: 45px;
+}
+
+h1#suprasub {
+        position: absolute;
+        top: 486.5%;
+        left: 33.5%;
+        color: #626164;
+}
+
+p#supratext {
+        top: 502%;
+        left: 40%;
+        color: #626164;
+        font-size: 25px;
+        text-align: left;
+}
+
+img#POLAROIDtres {
+        position: absolute;
+        top: 565.8%;
+        left: 44%;
+        height: 470px;
+        width: 680px;
+        box-shadow: 10px 10px 20px 5px;
+}
+
+h1#polatextotres {
+        position: absolute;
+        top: 573%;
+        left: 3%;
+        font-size: 40px;
+        color: black;
+}
+
+img#evo {
+        position: absolute;
+        top: 655%;
+        left: 66%;
+        width: 400px;
+        height: 450px;
+}
+
+p#evotitle {
+        position: absolute;
+        top: 655%;
+        left: 35%;
+        color: #626164;
+        font-size: 45px;
+}
+
+p#evotdois {
+        position: absolute;
+        top: 655%;
+        left: 52.5%;
+        font-size: 45px;
+}
+
+h1#evosub {
+        position: absolute;
+        top: 662%;
+        left: 28.7%;
+        color: #626164;
+}
+
+p#evotext {
+        position: absolute;
+        top: 677%;
+        left: 6%;
+        color: #626164;
+        font-size: 25px;
+        text-align: left;
+}
+
+p#vendacarroca {
+        position: absolute;
+        top: 730%;
+        left: 25%;
+        color: black;
+        font-size: 40px;
+        text-align: center;
+}
+
+.CARROCA {
+        height: 450px;
+        width: 850px;
+        overflow: hidden;
+        position: absolute;
+        top: 753%;
+        left: 16.5%;
+}
+    
+.botao {
+           display: flex;
+}
+    
+.BOTAOCLASS {
+        position: absolute;
+        top: 766.5%;
+        left: 7%;
+        background-image: url("img/setalado.png");
+        background-repeat: no-repeat;
+        padding: 55px;
+        background-size: 100px;
+        cursor: pointer;
+        transition: .4s;
+}
+    
+.BOTAOCLASSdois {
+        position: absolute;
+        top: 766.5%;
+        left: 85%;
+        background-image: url("img/setalado2.png");
+        background-repeat: no-repeat;
+        padding: 55px;
+        background-size: 100px;
+        cursor: pointer;
+        transition: .4s;
+}
+    
+.BOTAOCLASS:hover {
+         left: 5%
+}
+    
+.BOTAOCLASSdois:hover {
+        left: 87%;
+}
+    
+input {
+     display: none;
+}
+    
+.inputs {
+       display: flex;
+       width: 500%;
+       height: 100%;
+}
+    
+.imagem {
+      width: 20%;
+      transition: .6s;
+}
+    
+.imagem img {
+          width: 850px;
+          height: 450px;
+}
+    
+#BOTum:checked ~ .s1 {
+        margin-left: 0%;
+}
+    
+#BOTdois:checked ~ .s1 {
+        margin-left: -20%;
+}
+
+img#gtr {
+        position: absolute;
+        top: 830%;
+        left: 4%;
+        width: 400px;
+        height: 450px;
+}
+
+p#gtrtitle {
+            top: 830%;
+            left: 35%;
+            color: #626164;
+            font-size: 45px;
+}
+
+p#gtrtdois {
+        position: absolute;
+        top: 830%;
+        left: 52.5%;
+        font-size: 45px;
+}
+
+h1#gtrsub {
+        position: absolute;
+        top: 837%;
+        left: 40%;
+        color: #626164;
+}
+
+p#gtrtext {
+        top: 851%;
+        left: 40%;
+        color: #626164;
+        font-size: 25px;
+        text-align: left;
+}
+
+img#POLAROIDquatro {
+        position: absolute;
+        top: 915.9%;
+        left: 4%;
+        height: 470px;
+        width: 680px;
+        box-shadow: 10px 10px 20px 5px;
+}
+
+h1#polatextoquatro {
+        position: absolute;
+        top: 920%;
+        left: 59%;
+        font-size: 40px;
+        color: black;
+}
+
+header#baixo {
+              position: absolute;
+              top: 1000%;
+              left: 0%;
+              background-color: white;
+              width: 100%;
+              height: 75%;
+}
+
+header#baixodois {
+             	  position: absolute;
+             	  top: 1075%;
+            	  background: #626164;
+            	  width: 100%;
+            	  height: 7%;
+}
+
+img#gmailicon {
+               position: absolute;
+               top: 1060.5%;
+               left: 20%;
+               width: 70px;
+               height: 70px;
+}
+
+p#gmailcontato {
+        position: absolute;
+        top: 1063%;
+        left: 26%;
+        font-size: 25px;
+        color: black;
+}
+
+img#rodap {
+             position: absolute;
+             top: 992.7%;
+             left: 4%;
+             width: 500px;
+             height: 500px;
+}
+
+h1#homeRP {
+           position: absolute;
+           top: 1005%;
+           left: 45%;
+           font-size: 45px;
+           text-align: center;
+           color: #626164;
+}
+
+p#nameM {
+        position: absolute;
+        top: 1076.2%;
+        left: 42%;
+        font-size: 25px;
+        color: black;
+}
+
+p#copy {
+        position: absolute;
+        top: 1079%;
+        left: 1%;
+        font-size: 13px;
+        color: black;
+}
+
+img#subir {
+        position: absolute;
+        top: 1059%;
+        left: 92%;
+        width: 90px;
+        height: 90px;
+        transition: 0.8s;
+}
+
+img#subir:hover {
+        scale: 1.1;
+        cursor: pointer;
+}
