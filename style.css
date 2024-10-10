@@ -1,0 +1,223 @@
+@font-face {
+        font-family: eita;
+        src: url(fonte/TruenoBdIt.otf) format('opentype');
+}
+    
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: eita;
+}
+    
+body {
+        background-image: url(img/gifaa.gif);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+}
+    
+p#top {
+        position: absolute;
+        top: 0;
+        visibility: hidden;
+}
+    
+section#secCAB {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        background-color: #ff0000;
+        padding: 10px 20px;
+        box-shadow: 0px 10px 27px #920a0a, -13px -13px 27px #920a0a;
+        z-index: 2;
+        justify-content: center;
+}
+
+section#logo2{
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+}
+    
+img#logo {
+    width: 100%;
+    max-width: 350px;
+    height: auto; 
+}
+    
+div#header2 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 15px;
+        max-width: 70%;
+}
+    
+#header2 a {
+        font-size: 2rem;
+        transition: 0.4s;
+}
+    
+#header2 a:link,
+#header2 a:visited {
+        color: #ffffff;
+        text-decoration: none;
+}
+    
+#header2 a:hover {
+        color: rgb(68, 5, 5);
+}
+    
+.menu-divider {
+        width: 3px;
+        height: 40px;
+        background-color: black;
+        border: none;
+}
+    
+img#imgdois {
+        width: 800px;
+        height: 800px;
+}
+    
+section#ttres {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    padding: 20px;
+    background-color: white;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+img#silJDM {
+    width: 40%;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 20px; 
+}
+
+div.text-container {
+    width: 55%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1#hum {
+    font-size: 45px;
+    color: #626164;
+    text-align: left;
+}
+
+h1#htres {
+    font-size: 25px;
+    color: #626164;
+    margin: 10px 0;
+    text-align: left;
+}
+
+p {
+    color: #626164;
+    font-size: 25px;
+    line-height: 1.5;
+    text-align: left;
+}
+
+section#ttres2 {
+        display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    width: 100%;
+    position: relative;
+}
+    
+img#POLAROIDdois {
+    width: 45%;
+    height: auto;
+    box-shadow: 10px 10px 20px 5px;
+    order: 2;
+}
+    
+h1#Polatextodois {
+    font-size: 35px;
+    color: black;
+    width: 50%;
+    text-align: center;
+    order: 1;
+}
+    
+.vermeio {
+        color: #CD0500;
+}
+    
+@media (max-width: 768px) {
+        div#header2 {
+            padding: 1%;
+            width: 100%;
+            height: 50px;
+        }
+
+        img#imgdois {
+                width: 200px;
+                height: 200px;
+        }
+
+        #header2 a{
+                font-size: 10px;
+        }
+
+        .menu-divider {
+                width: 1px;
+                height: 20px;
+                background-color: black;
+                border: none;
+            }
+    
+            section#ttres {
+                flex-direction: row; 
+            }
+        
+            img#silJDM {
+                width: 50%; 
+            }
+        
+            div.text-container {
+                width: 45%; 
+            }
+        
+            h1#hum {
+                font-size: 15px;
+            }
+        
+            h1#htres {
+                font-size: 12px;
+            }
+        
+            p {
+                font-size: 10px;
+            }
+
+            section#ttres2 {
+                flex-direction: row;
+                justify-content: center;
+                gap: 15px;
+            }
+        
+            img#POLAROIDdois {
+                width: 50%;
+                margin: 20px 0;
+            }
+        
+            h1#Polatextodois {
+                width: 45%;
+                font-size: 15px;
+                text-align: center;
+            }
+}
+    
