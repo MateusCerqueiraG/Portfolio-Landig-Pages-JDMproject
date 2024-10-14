@@ -19,6 +19,7 @@ body {
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
+        background-position: center;
 }
     
 p#top {
@@ -151,7 +152,7 @@ img#POLAROIDdois {
     
 h1#Polatextodois {
     font-size: 35px;
-    color: black;
+    color: rgb(255, 255, 255);
     width: 50%;
     text-align: center;
     order: 1;
@@ -197,7 +198,7 @@ img#POLAROIDTRES {
     
 h1#PolatextoTRES {
     font-size: 35px;
-    color: black;
+    color: rgb(255, 255, 255);
     width: 50%;
     text-align: center;
     order: 2;
@@ -246,6 +247,9 @@ img#supra {
 }
     
 @media (max-width: 768px) {
+        body {
+              background-image: url(img/wallcelular.jpg);
+        }
 
         div#header2 {
             padding: 1%;
