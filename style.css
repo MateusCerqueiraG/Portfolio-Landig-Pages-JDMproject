@@ -21,13 +21,7 @@ body {
         background-attachment: fixed;
         background-position: center;
 }
-    
-p#top {
-        position: absolute;
-        top: 0;
-        visibility: hidden;
-}
-    
+
 section#secCAB {
         position: relative;
         display: flex;
